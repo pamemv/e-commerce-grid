@@ -13,21 +13,26 @@
 
 header {
   grid-area: header;
-  background-color: red;
+  background-color: rgb(54, 52, 52);
+  color: white;
   height: 10vh;
+  text-align: center;
+  align-content: center;
   justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
 }
 
 menu {
   grid-area: menu;
-  background-color: green;
+  background-color: rgb(179, 177, 177);
   height: 82vh;
   width: 40vh;
 }
 
 main {
   grid-area: main;
-  background-color: bisque;
+  background-color: rgb(240, 238, 235);
   height: 82vh;
   overflow-y: auto;
 }
@@ -43,13 +48,15 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 25px;
   gap: 30px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  border: solid white;
+  background-color: white;
+  justify-content: space-between;
   width: 20%;
 }
 
@@ -60,7 +67,7 @@ footer {
 
 .title-book {
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -73,6 +80,7 @@ footer {
 
 .btn {
   background-color: rgb(179, 177, 177);
+  color: white;
   display: block;
   width: 100%;
   margin-bottom: 5p;
