@@ -31,7 +31,6 @@ menu {
   grid-area: menu;
   background-color: #f9efed;
   height: 85vh;
-  width: 40vh;
 }
 
 main {
@@ -95,13 +94,11 @@ footer {
   color: grey;
 }
 
-.container-cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 25px;
-  gap: 30px;
+.grid-container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 25px 40px;
 }
 
 .card {
@@ -109,7 +106,6 @@ footer {
   flex-direction: column;
   background-color: white;
   justify-content: space-between;
-  width: 20%;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px -1px;
 }
 
